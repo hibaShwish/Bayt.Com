@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="active-links">
+        <li class="active">
+          <a><i class="fa-solid fa-house-chimney"></i>Logo</a>
+        </li>
+        <li><a>Team</a></li>
+        <li><a>Work</a></li>
+        <li><a>Price</a></li>
+        <li><a>Contact</a></li>
+        <li class="dropdown">
+          <span><i class="fa-solid fa-sort-down"></i>Dropdown</span>
+          <ul class="dropdown-content">
+            <li><a>Dropdown1</a></li>
+            <li><a>Dropdown2</a></li>
+            <li><a>Dropdown3</a></li>
+            <li><a>Dropdown4</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bars" onclick="w3_open()"></i>
+      </div>
+    </nav>
+    <nav class="none" id="mySidebar">
+      <ul class="active-links">
+        <li><a>Team</a></li>
+        <li><a>Work</a></li>
+        <li><a>Price</a></li>
+        <li><a>Contact</a></li>
+        <li class="dropdown">
+          <span><i class="fa-solid fa-sort-down"></i>Dropdown</span>
+          <ul class="dropdown-content">
+            <li><a>Dropdown1</a></li>
+            <li><a>Dropdown2</a></li>
+            <li><a>Dropdown3</a></li>
+            <li><a>Dropdown4</a></li>
+          </ul>
+        </li>
+        <li>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <span>Talentera</span>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h2>OUR TEAM</h2>
+          <p>Meet the teem - our office rats;</p>
+        </div>
+        <div class="our-team">
+          <div>
+            <img src="./images/team-one.jpg" />
+            <h4>Nora Alrimhi</h4>
+            <h6>Web Designer</h6>
+          </div>
+          <div>
+            <img src="./images/team-two.jpg" />
+            <h4>Yaser Dwelmi</h4>
+            <h6>Support</h6>
+          </div>
+          <div>
+            <img src="./images/team-three.jpg" />
+            <h4>Hanadi Sultan</h4>
+            <h6>HR</h6>
+          </div>
+          <div>
+            <img src="./images/team-four.jpg" />
+            <h4>lana Jabar</h4>
+            <h6>Team Lead</h6>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <div>
+            <h2>Our Work</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/CS-1.jpg" />
+                <div>
+                  <h4>Customer1</h4>
+                  <p>Trade</p>
+                  <ul>
+                    <li>Blablablabla</li>
+                    <li>Blablablabla</li>
+                    <li>Blablablabla</li>
+                    <li>Blablablabla</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/CS2.png" />
+                <div>
+                  <h4>Customer2</h4>
+                  <p>Trade</p>
+                  <ul>
+                    <li>Blablablabla</li>
+                    <li>Blablablabla</li>
+                    <li>Blablablabla</li>
+                    <li>Blablablabla</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/CS3.png" />
+                <div>
+                  <h4>Customer3</h4>
+                  <p>Trade</p>
+                  <ul>
+                    <li>Blablablabla</li>
+                    <li>Blablablabla</li>
+                    <li>Blablablabla</li>
+                    <li>Blablablabla</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/CS4.png" />
+                <div>
+                  <h4>Customer4</h4>
+                  <p>Trade</p>
+                  <ul>
+                    <li>Blablablabla</li>
+                    <li>Blablablabla</li>
+                    <li>Blablablabla</li>
+                    <li>Blablablabla</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h3>Contact Us</h3>
+          <h4>Address</h4>
+          <h6>Swing by for a cup of coffee, or whatever.</h6>
+          <div>
+            <i class="fa-solid fa-location-dot"></i><span>Amman, Jordan</span>
+          </div>
+          <div><i class="fa-solid fa-phone"></i><span>+962790000000</span></div>
+          <div>
+            <i class="fa-solid fa-envelope"></i><span>test@test.com</span>
+          </div>
+        </div>
+        <form action="/action_page.php">
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="firstname" />
+
+          <label for="lname">Email</label>
+          <input type="text" id="lname" name="lastname" />
+
+          <label for="lname">Message</label>
+          <input type="text" id="lname" name="lastname" />
+
+          <input type="checkbox" checked />
+          <label for="checkbox">I Like it!</label>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <img src="#" />
+      </div>
+      <div>
+        <p>Follow Us</p>
+        <ul>
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-google-plus-g"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-linkedin-in"></i></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

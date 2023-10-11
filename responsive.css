@@ -1,0 +1,36 @@
+@media screen and (max-width: 590px) {
+    nav:first-child ul li:not(:first-child),nav:first-child .fa-magnifying-glass {
+   display: none;
+    }
+    nav:first-child ul:first-child li:first-child{
+        background-color: var(--main-color);
+    }
+    .fa-bars{
+        display: block;
+    }
+    nav:nth-child(2) .active-links{
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    nav:nth-child(2) ul::-webkit-scrollbar {
+        height: 2px;
+      }
+      
+      /* Add a thumb */
+      nav:nth-child(2) ul::-webkit-scrollbar-thumb {
+        background: #adadb6;
+      }
+      nav .dropdown .dropdown-content{
+        display: none;
+      }
+      nav .dropdown:hover .dropdown-content {
+        left: 81px;
+        position: fixed;
+      }
+  }
+@media screen and (max-width: 800px) {
+    section,main section:nth-child(2) > div:first-child {
+   flex-wrap: wrap;
+    }
+  }
